@@ -5,6 +5,6 @@ int main(void){
     float a, A;
     scanf("%f", &a);
     A = a * a * SQRT3 / 4;
-    printf("%.3f", A);
+    printf("%.3f\n", A);
     return 0;
 }

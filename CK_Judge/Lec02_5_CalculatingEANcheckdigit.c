@@ -8,6 +8,6 @@ int main(void)
     x = a * 3 + b;
     y = x - 1;
     z = y % 10;
-    printf("%d", 9 - z);
+    printf("%d\n", 9 - z);
     return 0;
 }

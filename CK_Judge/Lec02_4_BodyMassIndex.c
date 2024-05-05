@@ -6,6 +6,6 @@ int main(void){
     scanf("%f %d", &H, &W);
     H = H / 100;
     BMI = W / (H * H);
-    printf("%.6f", BMI);
+    printf("%.6f\n", BMI);
     return 0;
 }

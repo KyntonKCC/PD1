@@ -16,6 +16,6 @@ int main () {
             break;
         }
     }
-    printf("%d", biggest - smallest);
+    printf("%d\n", biggest - smallest);
     return 0;
 }
