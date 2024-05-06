@@ -23,6 +23,6 @@ int main(void){
     second = (n - (n >> 24 << 24)) >> 16;
     third  = (n - (n >> 16 << 16)) >> 8;
     forth  = (n - (n >> 8 << 8)) >> 0;
-    printf("%d.%d.%d.%d", first, second, third, forth);
+    printf("%d.%d.%d.%d\n", first, second, third, forth);
     return 0;
 }

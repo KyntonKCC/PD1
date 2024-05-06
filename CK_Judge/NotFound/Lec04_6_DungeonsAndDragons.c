@@ -60,6 +60,6 @@ int main(void){
     tempLower = temp - (temp >> 16 << 16);
     temp = tempUpper ^ tempLower;
     // printf("%.8X\n", temp);
-    printf("%d", temp);
+    printf("%d\n", temp);
     return 0;
 }

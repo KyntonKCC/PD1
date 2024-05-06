@@ -29,9 +29,9 @@ int main(void){
         ch = getchar();
     }
     if(obedience >= LEARN_OBEDIENCE && strength <= LEARN_STRENGTH){
-        printf("Yes");
+        printf("Yes\n");
     }else{
-        printf("No");
+        printf("No\n");
     }
     return 0;
 }
