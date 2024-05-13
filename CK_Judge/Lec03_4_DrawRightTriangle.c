@@ -8,14 +8,12 @@ int main(void){
             for(int x = j ; x > 0 ; x--){
                 for(int y = x ; y > 0 ; y--)
                     printf("*");
-                printf("\n");
             }
             break;
         case 2:
             for(int x = 0 ; x < j ; x++){
                 for(int y = 0 ; y <= x ; y++)
                     printf("*");
-                printf("\n");
             }
             break;
         case 3:
@@ -24,7 +22,6 @@ int main(void){
                     printf(" ");
                 for(int y = x ; y > 0 ; y--)
                     printf("*");
-                printf("\n");
             }
             break;
         case 4:
@@ -33,7 +30,6 @@ int main(void){
                     printf(" ");
                 for(int y = 0 ; y <= x ; y++)
                     printf("*");
-                printf("\n");
             }
             break;
     }
